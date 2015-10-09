@@ -22,6 +22,7 @@ public class InsertionSort {
 				
 				sort[i] = temp;
 			}
+			
 			System.out.println(sort[0]+" "+sort[1]+" "+sort[2]+" "+sort[3]+" "+sort[4]);
 		}
 	}

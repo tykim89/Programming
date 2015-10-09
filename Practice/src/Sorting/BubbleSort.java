@@ -7,6 +7,7 @@ public class BubbleSort {
 	public static void bubbleSort(String[] input){
 		
 		int[] sort = new int[input.length];
+		
 		for(int i=0; i<input.length; i++){
 			sort[i] = Integer.parseInt(input[i]);
 		}

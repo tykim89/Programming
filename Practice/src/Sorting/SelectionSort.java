@@ -20,6 +20,7 @@ public class SelectionSort {
 					minIdx = j;
 				}
 			}
+			
 			int temp = sort[minIdx];
 			sort[minIdx] = sort[i];
 			sort[i] = temp;
