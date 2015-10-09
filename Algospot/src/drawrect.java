@@ -7,6 +7,7 @@ public class drawrect {
 		int[] view11 = new int[2];
 		int[] view22 = new int[2];
 		int[] view33 = new int[2];
+		
 		for(int i=0; i<view1.length; i++){
 			view11[i] = Integer.parseInt(view1[i]);
 			view22[i] = Integer.parseInt(view2[i]);

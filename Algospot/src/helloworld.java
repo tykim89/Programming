@@ -7,8 +7,8 @@ public class helloworld {
 		Scanner sc = new Scanner(System.in);
 
 		String[] aa = new String[sc.nextInt()];
-		int arrSize = aa.length;
 		
+		int arrSize = aa.length;
 		for(int i=0; i<arrSize; i++){
 			aa[i] = sc.next();
 		}

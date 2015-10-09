@@ -1,8 +1,8 @@
 package ProgrammingBook;
 
-public class compareMax {
+public class CompareMax {
 	
-	public static int CompareMax(int[] numArr){
+	public static int compareMax(int[] numArr){
 		
 		int max;
 		int n = numArr.length;
@@ -26,7 +26,7 @@ public class compareMax {
 		
 		int[] numArr = {3, 1, 2, 5, 8, 1, 3, 0, 9, 4, 6, 11};
 		
-		System.out.println("최대 값 : " + CompareMax(numArr));
+		System.out.println("최대 값 : " + compareMax(numArr));
 	}
 
 }

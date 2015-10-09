@@ -1,8 +1,6 @@
-package ex_1;
+package c;
 
-import java.util.Scanner;
-
-public class compareParenthesis {
+public class CompareParenthesis {
 	
 	public static void compare(String[] parenthesis){
 		

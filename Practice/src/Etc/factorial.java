@@ -2,7 +2,7 @@ package Etc;
 
 import java.util.Scanner;
 
-public class factorial {
+public class Factorial {
 
 	public static int factorial(int n){
 		

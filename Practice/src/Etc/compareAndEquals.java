@@ -1,6 +1,6 @@
 package Etc;
 
-public class compareAndEquals {
+public class CompareAndEquals {
 
 	public static void main(String[] args) {
 
