@@ -1,4 +1,4 @@
-package Etc;
+package etc;
 
 public class CompareAndEquals {
 

@@ -1,4 +1,4 @@
-package ProgrammingBook;
+package programmingBook;
 
 public class CompareMax {
 	

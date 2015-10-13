@@ -5,31 +5,28 @@ public class ObjectTest {
 	int p;
 	
 	{
-		p = 5;
-		System.out.println("p 초기화");
+		p = 1;
+		System.out.println("p 초기화 "+p);
 	}
 	
 	static int i;
 	static {
 		i = 5;
-		System.out.println("i 초기화"+i);
+		System.out.println("i 초기화 "+i);
 	}
 	
 	public static void objectInstance(int i){
 		System.out.println(i);
 	}
-
-	public ObjectTest() {
-	}
 	
 	public ObjectTest(int p) {
+		this.p = p;
 		System.out.println(p);
 	}
 	
 	public void objPrint(){
-		System.out.println("호출");
+		System.out.println("호출 "+p);
 	}
-
 
 
 	public static void main(String[] args) {
