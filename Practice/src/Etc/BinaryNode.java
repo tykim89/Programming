@@ -60,4 +60,43 @@ public class BinaryNode {
 	// heap : 노드의 각 자식의 값은 자기 자신의 값 이하여야 함.
 	// root는 그 트리에서 가장 큰 값, 최대값을 상수 시간으로 구하는 것 가능 = root값 리턴
 	// 삽입과 삭제는 O(log n), 룩업은 O(n)
+	
+	
+	// 트리의 높이 구하기
+	public static int treeHeight(BinaryNode n){
+		if(n==null){
+			return 0;
+		}
+		return 1+Math.max(treeHeight(n.getLeft()), treeHeight(n.getRight()));
+	}
+	
+	// Pre-order
+	public void preorderTraversal(BinaryNode root){
+		if(root==null){
+			return;
+		}
+		root.getValue();
+		preorderTraversal(root.getLeft());
+		preorderTraversal(root.getRight());
+	}
+	
+	// In-order
+	public void inorderTraversal(BinaryNode root){
+		if(root==null){
+			return;
+		}
+		inorderTraversal(root.getLeft());
+		root.getValue();
+		inorderTraversal(root.getRight());
+	}
+	
+	// Post-order
+	public void postorderTraversal(BinaryNode root){
+		if(root==null){
+			return;
+		}
+		postorderTraversal(root.getLeft());
+		postorderTraversal(root.getRight());
+		root.getValue();
+	}
 }

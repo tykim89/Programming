@@ -65,7 +65,7 @@ public class CompareParenthesis {
 		Scanner sc = new Scanner(System.in);
 		parenthesis = sc.next();
 */		
-		String[] parenthesis = {"<", "[", "]", "[", "{", "{", "}", "(", ")", "}", "]", ">"};
+		String[] parenthesis = {"<", "[", "]", "[", "{", "[", "]", "(", ")", "}", "]", ">"};
 		System.out.println(compareP(parenthesis));
 		
 	}
