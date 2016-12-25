@@ -1,6 +1,5 @@
-# Programming
-프로그래밍 개인공부
-- 알고스팟 구현
-- SW회사 실기 TEST 문제
-- 프로그래밍 책 예제
-- 기타 정렬, 자료구조 등
+# Self-Study
+- Algospot 
+- IT회사 실기 TEST 문제
+- 프로그래밍  예제
+- 자료구조 관련
